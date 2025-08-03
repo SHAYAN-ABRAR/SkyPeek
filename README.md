@@ -1,30 +1,15 @@
-# 🌤️ SkyPeek
+# Weather App
 
-**SkyPeek** is a lightweight Python CLI tool that lets you check real-time weather information for any city using the [Open-Meteo API](https://open-meteo.com/). Just enter the city name, and SkyPeek fetches temperature, humidity, wind speed, and a weather description instantly.
+A lightweight desktop application to check current weather conditions for any city. Built using Python's Tkinter for the GUI and Open-Meteo API for weather data.
 
----
+## Features
+- Search weather by city name (e.g., "Ishwardi" or "London,UK").
+- Displays temperature (°C), humidity (%), wind speed (km/h), and weather description.
+- Handles errors like invalid city or network issues with pop-up messages.
+- Pre-filled with default city for quick testing.
 
-## 🚀 Features
+## Requirements
+- Python 3.x
+- Tkinter (included in standard Python installations)
+- Requests library (`pip install requests`)
 
-- Get current temperature in °C
-- Check humidity and wind speed
-- Auto-detect city coordinates via geocoding
-- Weather descriptions from official weather codes
-- Fast and easy-to-use Python script
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-- `requests` library
-- Open-Meteo API (for weather and geocoding)
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/your-username/skypeek.git
-cd skypeek
-pip install requests
